@@ -1,0 +1,43 @@
+.banner {
+    color: red;
+}
+*,
+*::after,
+*::before {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.wrapper {
+    width: 100%;
+    background-color: lavender;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.main-menu .container {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(76,76,143,1) 39%, rgba(0,212,255,1) 100%);
+}
+.main-menu__p {
+    color:red;
+}
+.list_menu a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.list_menu a:hover{
+    text-decoration: underline;
+    color: beige;
+    transition: all 0.3s;
+}

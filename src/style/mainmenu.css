@@ -1,0 +1,16 @@
+.main-menu .container {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(76,76,143,1) 39%, rgba(0,212,255,1) 100%);
+}
+.main-menu__p {
+    color:red;
+}
+.list_menu a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.list_menu a:hover{
+    text-decoration: underline;
+    color: beige;
+    transition: all 0.3s;
+}
